@@ -11,7 +11,7 @@
 # nixpkgs-update: no auto update
 buildPythonPackage rec {
   pname = "grpcio-health-checking";
-  version = "1.75.1";
+  version = "1.76.0";
   format = "setuptools";
 
   src = fetchPypi {

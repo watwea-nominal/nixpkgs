@@ -12,7 +12,7 @@
 # nixpkgs-update: no auto update
 buildPythonPackage rec {
   pname = "grpcio-reflection";
-  version = "1.75.1";
+  version = "1.76.0";
   pyproject = true;
 
   src = fetchPypi {
